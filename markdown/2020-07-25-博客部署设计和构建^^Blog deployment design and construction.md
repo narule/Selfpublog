@@ -29,13 +29,15 @@
    
    
    已经写好可以访问 [narule.net/blog](http://narule.net/blog)  查看效果  
-   生成文件如下图  
+   
+   created html:  
    ![](../blogimage/selfpublogresult.PNG)
    
-   生成json信息
+   created blog json info:  
    ![](../blogimage/selfpublog-json.PNG)
    
-   pageIndex
+   
+   blog pageIndex:  
    ![](../blogimage/indexfolder.PNG)
 
 ### Request | 要求

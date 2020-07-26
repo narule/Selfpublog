@@ -26,9 +26,9 @@
 
    通过shell脚本监控文件夹变化，监控文件夹下markdown文件的修改，自动生成对应的HTML目录和文件
    
+   GitHub源码地址：[Selfpublog](https://github.com/narule/Selfpublog)  
    
-   
-   已经写好可以访问 [narule.net/blog](http://narule.net/blog)  查看效果  
+   功能已经写好，可以访问 [narule.net/blog](http://narule.net/blog)  查看效果  
    
    created html:  
    ![](../blogimage/selfpublogresult.PNG)

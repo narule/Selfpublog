@@ -30,17 +30,17 @@ You only need to put the written markdown article on the server (or the git upda
   markdown_up.sh 中指定的文件夹在你的linux中存在;  
   
   Explanation of some parameters in shell script:   
- ```shell
+  ```shell
   SRCDIR=/home/data/narule/markdown/ # indicates the location of the monitoring folder   
   MARKDOWNDIR=markdown #This generally does not need to be modified, unless your monitored folder is not called **markdown**   
   BLOGDIR=blog/html #Indicates the location where the html page file is generated   
- ```
+  ```
   shell脚本中的一些参数解释:  
-```shell
+  ```shell
   SRCDIR=/home/data/narule/markdown/ #表示监控文件夹位置  
   MARKDOWNDIR=markdown #这一一般不需要修改，除非你的监控的文件夹不是不叫**markdown**  
   BLOGDIR=blog/html   #表示html页面文件生成位置  
-```
+  ```
 If these tools are not installed, please refer to the specific introduction [Seflpublog-design](markdown/2020-07-25-blog deployment design and construction%5E%5EBlog%20deployment%20design%20and%20construction.md)   
 如果这些工具没安装 可以参考具体介绍 [Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)
 

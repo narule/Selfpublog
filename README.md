@@ -56,8 +56,11 @@ A blog post automatic publishing tool
 
 [markdown_up.sh](markdown_up.sh)
 
-More detailed content is also in [Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)  
-更详细的内容也在[Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)
+More detailed content is also in  
+[Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)
+
+更详细的内容也在  
+[Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)
 
 ### END | 结尾
 

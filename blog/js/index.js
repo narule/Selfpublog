@@ -66,6 +66,7 @@ var uCober = false;
 //变量标记
 var pageDataMap = new Map();
 
+var clickMenu = false;
 /**
  * 遮罩层逻辑
  */
@@ -469,7 +470,8 @@ function elementEventInit(){
      * 文章 - 鼠标点击事件
      */
     function getArticle() {
-        if(uCober){
+        if(uCober && clickMenu){
+            clickMenu = false;
             isCover();
         }
         var url = this.id;
@@ -581,6 +583,7 @@ function init_page_elements(){
     }
 
     menu.onclick = function menuClick(e) {
+        clickMenu = true;
         isCover();
         e = e || window.event;
         if (e.stopPropagation) { //W3C阻止冒泡方法  

@@ -61,6 +61,10 @@ More detailed content is also in
 更详细的内容也在  
 [Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)
 
+### Problem | 问题
+  1.文章内跳转会失败，因为iframe内嵌的原因
+  2.目前依赖markdown2html-converter
+  肯定有不少问题，但它基本可以使用
 ### END | 结尾
 
 When I wanted to build a private blog by myself, I tried to realize it. The main questions that came to my mind were:  

@@ -2,12 +2,15 @@
 Self-publishing blog util
 
 A blog post automatic publishing tool
+
 一个博客文章自动发布工具
 
 This tool can monitor the file changes in the specified folder, and convert your newly added (modified) markdown files into html files, so that web pages can be directly accessed
+
 这个工具能监控指定文件夹下的文件变化，将你新增（修改)的markdown文件转为html文件，使网页可以直接访问
 
 You only need to put the written markdown article on the server (or the git update file is the same), and other things are done automatically
+
 你只需要将写好的markdown文章放到服务器即可(或者git更新文件 同理)，其他事情自动完成
 
 ## How to use | 如何使用
@@ -18,13 +21,13 @@ You only need to put the written markdown article on the server (or the git upda
 
 2. Install the following tools | 安装以下工具
 
-  inotify-tool: file monitoring tool
+  inotify-tool: file monitoring tool  
   inotify-tool: 文件监控工具
   
   markdown2html-converter: markdown转html工具  
   markdown2html-converter: markdown to html tool
   
-  jq: read and write json files
+  jq: read and write json files  
   jq: 读写json文件
   
 3.The folder specified in markdown_up.sh exists in your linux;

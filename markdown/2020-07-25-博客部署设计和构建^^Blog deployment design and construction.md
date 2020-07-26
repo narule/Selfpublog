@@ -29,6 +29,8 @@
    
    
    已经写好可以访问 [narule.net/blog](http://narule.net/blog)  查看效果
+   生成文件如下图：
+   ![](http://narule.net/blog/img/selfpublog.PNG)
 
 ### Request | 要求
 

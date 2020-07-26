@@ -56,7 +56,7 @@ You can view the `/var/log/monitor.log` file to understand the monitoring output
 
 [markdown_up.sh](markdown_up.sh)
 
-### END
+### END | 结尾
 
 When I wanted to build a private blog by myself, I tried to realize it. The main questions that came to my mind were:  
   1. How to monitor the changes of markdown files  

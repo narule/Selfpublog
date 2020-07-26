@@ -41,7 +41,7 @@ A blog post automatic publishing tool
   MARKDOWNDIR=markdown #这一一般不需要修改，除非你的监控的文件夹不是不叫**markdown**  
   BLOGDIR=blog/html   #表示html页面文件生成位置  
   ```
-  If these tools are not installed, please refer to the specific introduction [Seflpublog-design](markdown/2020-07-25-blog deployment design and construction%5E%5EBlog%20deployment%20design%20and%20construction.md)   
+  If these tools are not installed, please refer to the specific introduction [Seflpublog-design](markdown/(markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)   
   如果这些工具没安装 可以参考具体介绍 [Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)
 
 ### Start up | 启动

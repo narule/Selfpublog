@@ -10,15 +10,23 @@ Self-publishing blog util
 ## 如何使用
 
 ### 前提
-1.linux服务器，能运行shell脚本
-2.安装以下工具
+1. linux服务器，能运行shell脚本
+
+2. 安装以下工具
+
   inotify-tool: 文件监控工具
+  
   markdown2html-converter: markdown转html工具  
+  
   jq: 读写json文件
-3.markdown_up.sh 中指定的文件夹在你的linux中存在  
+  
+3. markdown_up.sh 中指定的文件夹在你的linux中存在;
   shell脚本中的一些参数解释
+  
   SRCDIR=/home/data/narule/markdown/ #表示监控文件夹位置
+  
   MARKDOWNDIR=markdown #这一一般不需要修改，除非你的监控的文件夹不是不叫**markdown**
+  
   BLOGDIR=blog/html   #表示html页面文件生成位置
 
 如果这些工具没安装 可以参考具体介绍 [Seflpublog-design](markdown/2020-07-25-博客部署设计和构建%5E%5EBlog%20deployment%20design%20and%20construction.md)

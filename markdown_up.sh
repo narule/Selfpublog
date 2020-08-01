@@ -11,7 +11,6 @@ temp=/home/data/narule/blog/json/temp
 
 CUTNAME=^^
 flag_h=-
-# inotifywait -mr --timefmt '%d/%m/%y %H:%M' --format '%T %w %f %e' -e create,delete,close_write,attrib,moved_to $SRCDIR  >> /var/log/narule_change.log
 
 inotifywait -mqr --timefmt '%d/%m/%y %H:%M' --format '%T %w %e %f' -e 'create,delete,modify,moved_from,moved_to' $SRCDIR  | while read DATE TIME DIR EVENT FILE; do
 
@@ -30,8 +29,6 @@ if [[ ! -s ${JSON} ]];then
     	echo "file in null"
 	echo '{}' > ${JSON}
 fi
-echo "$EVENT"
-echo $FILE
 
 if [[ $EVENT == "CREATE,ISDIR" ]]; 
 	then 

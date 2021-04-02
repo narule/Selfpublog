@@ -103,5 +103,6 @@ When I wanted to build a private blog by myself, I tried to realize it. The main
   `tail -10f /var/log/monitor_markdown.log`
 
 
-Do something based on standing on the shoulders of others. Thanksgiving
+Stand on the shoulders of others and do something. Thanksgiving
+
 站在别人的肩膀做些事 感谢

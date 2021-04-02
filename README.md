@@ -94,5 +94,12 @@ When I wanted to build a private blog by myself, I tried to realize it. The main
   
   并且这些资源全部能在GitHub上获取，我主要使用了这三个工具实现了此工具的功能，非常感谢这些项目的开发和维护人员
 
-It’s an extravagant wish to have time to write a tool after work, thank  
-在工作之余能有时间写个工具已经是奢求，感恩
+最后这些东西写好后，运行shell命令即可启动监控自动化
+`nohup ./markdown_up.sh > /var/log/monitor_markdown.log 2>&1 &` 
+
+查看日志了解监控触发时的一些动作记录 
+`tail -10f /var/log/monitor_markdown.log`
+
+
+Do something based on standing on the shoulders of others. Thanksgiving
+站在别人的肩膀做些事 感谢

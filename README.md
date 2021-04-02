@@ -99,6 +99,7 @@ When I wanted to build a private blog by myself, I tried to realize it. The main
   `nohup ./markdown_up.sh > /var/log/monitor_markdown.log 2>&1 &` 
 
 查看日志了解监控触发时的一些动作记录
+
   `tail -10f /var/log/monitor_markdown.log`
 
 

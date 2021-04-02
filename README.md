@@ -102,6 +102,7 @@ When I wanted to build a private blog by myself, I tried to realize it. The main
 
   `tail -10f /var/log/monitor_markdown.log`
 
+------
 
 Stand on the shoulders of others and do something. Thanksgiving
 
